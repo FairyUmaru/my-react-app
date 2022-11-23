@@ -4,7 +4,7 @@
  * @Author: Umaru
  * @Date: 2022-03-01 13:55:06
  * @LastEditors: Umaru
- * @LastEditTime: 2022-11-05 00:09:51
+ * @LastEditTime: 2022-11-23 23:07:21
  */
 module.exports = {
     extends: ["airbnb", "airbnb/hooks", "eslint:recommended"],
@@ -40,8 +40,10 @@ module.exports = {
         "no-plusplus": "off",
         "import/order": "off",
         "no-use-before-define": "off",
-        "prefer-default-export": "off",
+        "import/prefer-default-export": "warn",
         "object-curly-newline": 0,
+        // "react/self-closing-comp": ["error"],
+        "implicit-arrow-linebreak": ['off', 'beside'],
         "react/jsx-filename-extension": [
             2,
             {
